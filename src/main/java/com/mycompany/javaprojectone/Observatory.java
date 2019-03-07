@@ -157,9 +157,9 @@ public class Observatory {
         ob.setGalamseyList(g3);
         Galamsey a = new Galamsey();
         a = (Galamsey) ob.getGalamseyList().get(1);
-//        System.out.println(a.getColourValue());
+        //System.out.println(a.getColourValue());
         //System.out.println(ob.largestColVal());
         System.out.print(ob.galGreaterArb(100));
-    }
-    
+                       
+    }  
 }
